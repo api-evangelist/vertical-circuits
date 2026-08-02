@@ -1,8 +1,25 @@
 aid: vertical-circuits
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertical-circuits.png
 name: Vertical Circuits
-description: Vertical Circuits is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Vertical Circuits, Inc. (VCI) was a semiconductor company based in Scotts Valley, California,
+  supplying high-density semiconductor memories and die-level vertical-interconnect packaging technology.
+  Its patented ViP (vertical interconnect pillar) process stacked die to bridge wire-bond product solutions
+  and through-silicon-via (TSV) technology, serving computer, telecom, consumer-electronics, aerospace, and
+  military customers. The company's die-stacking IP and technology were acquired by Invensas/Tessera around
+  2013. Vertical Circuits is a hardware and semiconductor-IP company with no public web API, developer portal,
+  SDKs, or machine-readable API surface; it was surfaced as a Battery Ventures portfolio lead and enriched to
+  record that it has no API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/vertical-circuits/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Semiconductors
+- Hardware
+- Chip Packaging
+- Semiconductor Memory
+- Aerospace
+- Die Stacking
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
